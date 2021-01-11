@@ -1,0 +1,25 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushmita1603/Practise.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sushmita1603/Practise/issues"
+  },
+  "homepage": "https://github.com/sushmita1603/Practise#readme",
+  "dependencies": {
+    "underscore": "^1.12.0"
+  }
+}
