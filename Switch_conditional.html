@@ -37,39 +37,37 @@
 
 <!--- Using Switch conditions --->
 
-<script >
-  function getDayName(dayNum){
+<script>
+    function getDayName(dayNum) {
+        var day;
+        switch (dayNum) {
 
-   var day;
+            case 0 :
+                day = "Sunday";
+                break;
 
-
-   switch(dayNum){
-	case 0 :
-	day = "Sunday";
-	break;
-
-    case 1 :
-	day = "Monday";
-	break;
+            case 1 :
+	            day = "Monday";
+	            break;
 
 
-	case 2 :
-	day = "Tuesday";
-	break;
+	        case 2 :
+	            day = "Tuesday";
+	            break;
 
 
-	case 3 :
-	day = "Wednesday";
-	break;
+	        case 3 :
+	            day = "Wednesday";
+	            break;
 
-	case 4 :
-	day = "Thrusday";
-	break;
+	        case 4 :
+	            day = "Thrusday";
+	            break;
 
 
-	deafult:
-	day = "No day!" + dayNum  + "is not a valid input";
-	break;
+	        default:
+	            day = "No day! " + dayNum + " is not a valid input";
+	
 
 }
 
