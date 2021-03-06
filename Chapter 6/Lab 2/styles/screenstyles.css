@@ -1,0 +1,230 @@
+			/* Style sheet created by: Sushmita Sarkar,01/03/2021 */
+
+			/* Style for body specifies a background color */
+			body {
+				background-color: #E0F0FF;
+				height: 100%;
+				background: linear-gradient(#FFFFFF, #3366CC);
+			}
+
+
+			/* Styles for Mobile Layout */
+
+			/* media query for tablet view port */
+			@media only screen and (max-width: 481px){
+
+           img {
+		       width: 80%
+	         }
+
+	        /* Style to specify the img */
+			#banner {
+				text-align: center;
+			 }
+
+			/* Style specifies a horizontal display for navigation links */
+
+			nav li{
+			    display: inline;
+			    float: left;
+			    margin-left: 0%;
+			    margin-right: 1%;
+			    padding-left: 0;
+			    padding-right: 0;
+			    width: 18%;
+			    background-color: black;
+
+			   
+			}
+
+			/* Style to specify the links  with no decoration like underlines */
+
+			   a {
+			      text-decoration: none;
+			      color: white;
+			      
+                }
+
+			/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders */
+			main{
+				clear: left;
+				padding-left: 0.5em;
+			  
+			}
+
+			/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+			header {
+				font-family: Verdana, Arial, serif;
+				font-size: 2em;
+				margin-top: 0.2em;
+				margin-bottom: 0.3em;
+				text-align: center;
+				padding: 0.2em;
+				color: #000066;
+				font-size: 25px;
+		
+			}
+
+			/* styles  specifies within the main element */
+			main{
+				border: none;
+				border-radius: 1em;
+				box-shadow: 1em 1em 1em  #331400;
+				margin-top: 1em;
+				background-color: white;
+				margin-left: .5em;
+				margin-right: .5em;
+
+			}
+
+			/* Style for the footer specifies font size, text alignment, and top margin */
+			footer {
+				font-size: .70em;
+				text-align: center;
+				margin-top: 2em;
+				
+
+			}
+
+			/* style specifies to hide the mobile class */
+			.mobile{
+				display: none;
+			}
+
+			/* style specifies to display the desktop class */
+			.desktop{
+				display: inline;
+			}
+
+			}
+
+			/* media query for desktop view port */
+			@media only screen and (min-width: 769px){
+
+			/* styles specifies a width for container */
+
+			#container {
+				width: 80%;
+			}
+
+			img {
+				width: 60%;
+				}
+           
+
+			/* styles specifies margin and padding for the unordered list within the nav */
+			nav ul{
+				margin: 0;
+				padding-left: 0.50%;
+				padding-right: 0.50%;
+				
+				}	
+
+			/* style for navigation list items specifies a border radius, border, margin, width and padding */
+
+			nav li {
+			   border-radius: 0;
+			   margin-left: 0;
+			   margin-right: 0;
+			   padding: 0;
+			   width: 20%;
+			   white-space: nowrap;
+			   float: left;
+			   display: inline; 
+
+			}
+
+			/* Style to specify the links  with no decoration like underlines */
+
+			a {
+			    text-decoration: none;
+
+			  }
+
+			/* styles for navigation links specifies display and padding */
+			nav li a {
+				display: block;
+				padding: 0.7em;
+				font-size: 1.25em;
+				color: white;
+				background-color: black;	
+
+			}
+
+
+			/* styles  specifies within the main element */
+			main{
+				border: none;
+				border-radius: 1em;
+				box-shadow: 1em 1em 1em  #331400;
+				margin-top: 1em;
+
+			}
+
+			/* styles rules for pseudo - classes */
+			nav li a:link {
+				color: #FFFFFF;
+
+			}
+
+
+			/* style rule for hovered over navigation links */
+			nav li a:hover {
+				color: #CCFFCC;
+				font-size: 1.5em;
+			}
+
+
+			/* Style for the container centers the page and specifies the width */
+			#container {
+				width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#banner {
+				text-align: center;
+			}
+
+			/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+			header {
+				font-family: Verdana, Arial, serif;
+				font-size: 2em;
+				margin-top: 0.2em;
+				margin-bottom: 0.3em;
+				text-align: center;
+				padding: 0.2em;
+				color: #000066;
+			}
+
+			/* Style for nav specifies text properties */
+			nav {
+				font-family: Lucida, "Times New Roman", serif;
+				font-size: 1em;
+				font-weight: bold;
+				text-align: center;	
+
+			}
+             
+			/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+			main {
+				display: block;
+				font-family: Georgia, "Times New Roman", sans-serif;
+				font-size: 1em;
+				margin-top: 3.5em;
+				padding: 0.5em;
+				border-radius: 1em;
+				background-color: #FFFFFF;
+				border-top: solid 0.2em #FF6600; 
+			    border-bottom: solid 0.2em #FF6600;
+			
+			}
+
+			/* Style for the footer specifies font size, text alignment, and top margin */
+			footer {
+				font-size: .70em;
+				text-align: center;
+				margin-top: 2em;
+			}
+			
+			}

@@ -1,0 +1,201 @@
+		/* Style sheet created by: Sushmita Sarkar , 03/01/2021 */
+
+		/* Style for body specifies a background color */
+		body {
+			background-color: #FFFFFF;
+		}
+
+		/* media query for tablet view port */
+		@media only screen and (max-width: 481px){
+
+		img {
+			width: 25%;
+			float: left;
+		}
+
+		header p {
+			margin-bottom: 4em;
+			padding-top: 2.5em;
+			text-align: center;
+			font-size: 25px;
+
+		}
+
+		/* Style specifies a horizontal display for navigation links */
+
+		nav li{
+
+		    display: inline;
+		    float: left;
+		    margin-left: 1%;
+		    margin-right: 1%;
+		    padding-left: 0;
+		    padding-right: 0;
+		    width: 18%;
+		    background-color: #FF6600;
+		    border-radius: 30px;
+		    text-align: center;
+		    
+		  
+		   }
+
+		   /* Style to specify the links  with no decoration like underlines */
+
+		   a {
+	       text-decoration: none;
+	       color: white;
+
+	       }
+
+		/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders */
+		main{
+			clear: left;
+			margin-top: 12em;
+			padding-left: 0.5em;
+			padding-top: 0.5em;
+			border-top: solid 0.2em #FF6600; 
+			border-bottom: solid 0.2em #FF6600;
+
+		}
+
+		/* Style for the footer specifies font size, text alignment, and top margin */
+		footer {
+			font-size: .70em;
+			text-align: center;
+			margin-top: 2em;
+
+
+		/* style specifies to hide the mobile class */
+		.mobile{
+			display: none;
+		}
+		/* style specifies to display the desktop class */
+
+		.desktop{
+			display: inline;
+		}
+
+		}
+		/* media query for desktop view port */
+
+		@media only screen and (min-width: 769px){
+
+		/* styles specifies a width for container */
+
+		#container {
+			width: 80%;
+		}
+
+		/* styles specifies margin and padding for the unordered list within the nav */
+
+		nav {
+			margin-top: -5em;
+
+		}
+
+		/* styles specifies margin and padding for the unordered list within the nav */
+		nav ul{
+			margin: 0;
+			padding-left: 0.50%;
+			padding-right: 0.50%;
+			
+
+		}
+
+		/* style for navigation list items specifies a border radius, border, margin, width and padding */
+
+		nav li {
+		   background-color: #FFFFFF;
+		   display: inline;
+		   border-radius: 0;
+		   margin-left: 0;
+		   margin-right: 0;
+		   padding: 0;
+		   width: 18%;
+		   
+
+		}
+
+
+		/* styles for navigation links specifies display and padding */
+		nav li a {
+			color: #FF6600;
+			display: block;
+			padding: 0.7em;
+			font-size: 1.25em;
+			
+		}
+
+
+		/* styles rules for pseudo - classes */
+		nav li a:link {
+			color: #FF6600;
+			text-decoration: none;
+
+
+		}
+
+
+		/* style rule for hovered over navigation links */
+		nav li a:hover {
+			color: #4C1F00;
+			font-style: italic;
+		
+		}
+
+		/* styles  specifies within the main element */
+		main{
+			border: none;
+			border-radius: 1em;
+			box-shadow: 1em 1em 1em  #331400;
+			margin-top: 1em;
+			border-top: solid 0.2em #FF6600; 
+			border-bottom: solid 0.2em #FF6600;
+		}
+
+
+		/* Style for the container centers the page and specifies the width */
+		#container {
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+		header {
+			font-family: Verdana, Arial, serif;
+			font-size: 2em;
+			margin-top: 0.2em;
+			background-color: #FFFFFF;
+			border-radius: 0.5em;
+			text-align: center;
+		}
+
+		/* Style for nav specifies text properties */
+		nav {
+			font-family: Georgia, "Times New Roman", serif;
+			font-size: 1em;
+			font-weight: bold;
+			text-align: center;
+			
+		}
+
+		/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+		main {
+			display: block;
+			font-family: Georgia, "Times New Roman", sans-serif;
+			font-size: 1em;
+			margin-top: 0.2em;
+			padding: 0.5em;
+			border-top: solid 0.2em; 
+			border-bottom: solid 0.2em;
+		}
+
+		/* Style for the footer specifies font size, text alignment, and top margin */
+		footer {
+			font-size: .70em;
+			text-align: center;
+			margin-top: 2em;
+		}
+		}
+		
