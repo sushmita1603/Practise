@@ -1,0 +1,187 @@
+				/* Style sheet created by: Sushmita Sarkar,01/22/2021 */
+
+				
+				/* Style for body specifies a background color */
+				html, body {
+					height: 100%;
+	                background: linear-gradient(#FFFFFF, #3366CC);
+	                background-size: cover;
+	                background-repeat: no-repeat;
+	                background-attachment: fixed;
+				}
+
+				
+					
+
+				/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+				header {
+					font-family: Verdana, Arial, serif;
+					font-size: 2em;
+					margin-top: 0.2em;
+					margin-bottom: 0.3em;
+					text-align: center;
+					padding: 0.2em;
+					color: #000066;
+					font-size: 25px;
+				
+					}
+
+					/* styles specifying  the images */
+		          img {
+			        width: 100%;
+				     object-fit: cover;
+
+			         }
+
+
+				/* styles  specifies within the main element */
+				main{
+					border: none;
+					border-radius: 1em;
+					
+					margin-top: 1em;
+					
+					margin-left: 0;
+					margin-right: 0;
+					clear: left;
+					padding-left: 0.5em;
+
+					}
+
+				/* styles  specifies within the p element */	
+
+				p{
+				   margin: 0;
+
+				}
+
+				/* styles  specifies within the ul element */
+
+				ul {
+				  padding: 0;
+				}
+
+
+				/* Style for the footer specifies font size, text alignment, and top margin */
+				footer {
+				  font-size: .70em;
+				  text-align: center;
+				  margin-top: 2em;
+				}
+
+				/* styles specifies the tabs class */
+
+				.tabs{
+				  display: flex;
+				  justify-content: space-between;
+					
+				}
+
+				/* styles specifying  the tab link class */
+
+				.tab-link {
+				    text-decoration: none;
+				    color: white;
+				 }
+
+	            /* styles specifying  the  desktop */    
+
+	           .mediasection{
+	               padding: 0.5em;
+	               display: flex;
+	               flex-direction: column;
+	               justify-content: space-between;
+
+	             }
+
+				/* media query for tablet view port */
+				@media only screen and (max-width: 481px){
+
+                /* styles specifying the container */
+			     .container{
+					padding: 0 1em;
+				}
+
+				article h3{
+					text-align: center;
+				}
+
+			    /* styles specifying the tab-link-box class specificying the nabigation links */
+				.tab-link-box{
+					background-color: #000066;
+					list-style: none;
+	                padding: 0.3em .5em;
+				}
+
+				/* Style to specify the height */
+	             .mediasection{
+	                height: 200px;
+	             }
+
+
+	            .articlebackground{
+	            	background-color:lightsteelblue;
+
+	             }
+					}
+
+
+
+				/* media query for desktop view port */
+				@media only screen and (min-width: 769px){
+
+               /* styles specifying the container */ 
+		       .container{
+				 padding: 2em;
+				}
+
+				/* styles specifies the tabs class specifying the padding and other specifications */
+	           .tabs{
+				  background-color: #000066;
+				  list-style: none;
+	              padding: 0.3em .5em;
+	                
+				}
+
+	             h3{
+	               text-align: center;
+	               }
+
+	        
+
+	            /* Styles for Mobile Layout */
+
+                /* media query for Mobile view port */
+				@media only screen and (max-width: 320px){
+
+              
+
+
+				article h3{
+					text-align: center;
+				}
+                
+                figure{
+                	text-align: center;
+                }
+
+                figcaption{
+                	color: #000066;
+                }
+
+                section{
+                	padding: 1em;
+                }
+
+                article{
+                	margin: 1em;
+                	padding: 1em;
+                	background-color: #ACB7E6;
+                }  
+
+	          }
+
+
+				
+
+				

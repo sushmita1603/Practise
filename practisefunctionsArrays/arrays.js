@@ -52,9 +52,24 @@ const arr7 = [1, 2, 3, 4];
 arr7.reverse();
 console.log(arr7);
 
-/*Sort an array */
+/*Sort an array in an object array */
 const arr8 = [{name: "James"}, {name : "Aron"}, {name: "Cathy"}];
-arr8.sort((a , b) => a.name < b.name);
+arr8.sort((a , b) => a.name < b.name ? 1 : -1);
 console.log(arr8);
 
+/* Search in an array */
+const arr9 = [2, 5, "Orange", 5 , "true" , 2];
+arr9.indexOf(5);
+arr9.lastindexOf(2);
 
+
+/* Find in an array */
+const arr9 = [{ id: 2, name: "Tam" }, { id: 5, name: "Kelly" }];
+arr9.findIndex(o => o.id === 2); 
+arr.findIndex(o => o.name === "Kelly");
+
+
+/* MAP*/
+const cart = [{ name: "Widget", price: 9.95 }, { name: "Gadget", price: 22.95 }];
+cart names = cart.map(x => x.name);
+cart prices = cart.map(x => x.price);
